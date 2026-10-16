@@ -164,6 +164,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
 
             VStack(spacing: 0) {
+                Text("hello")
                 Group {
                     switch selectedTab {
                     case 1:
